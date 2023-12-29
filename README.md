@@ -1,3 +1,6 @@
+### My deployed link
+[Game](https://rock-paper-scissors-boilerplate-orcin.vercel.app/)
+
 # Rock Paper Scissors Boilerplate
 
 This is a repository of game development lab, where students learn to build a Rock Paper Scissors game using HTML, CSS & JS.

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="full-container">
+    
+        <h1>
+            <span id="score-team-1">0</span>
+            <span>-</span>
+            <span id="score-team-2">0</span>
+        </h1>
+    
+    
+        <div id="main-container" class="flex">
+        
+            <div id="team-1" class="team-div">
+                <h3>You</h3>
+
+                <div id="image-container-1" class="image-container">
+                    <img src="" alt="" id="image-1">
+                </div>
+
+                <div id="button-container" class="flex">
+                    <div class="game-buttons" id="rock">
+                        <img src="./assets/rock-logo.png" alt="rock.img">
+                    </div>
+                    <div class="game-buttons" id="paper">
+                        <img src="./assets/paper-logo.png" alt="paper.img">
+                    </div>
+                    <div class="game-buttons" id="scissors">
+                        <img src="./assets/scissors-logo.png" alt="scissors.img">
+                    </div>
+                </div>
+            </div>
+ 
+
+            <img class="versus" src="./assets/vs.png" alt="">
+
+        
+            <div id="team-2" class="team-div">
+                <h3>Comp</h3>
+                <div id="image-container-2" class="image-container">
+                    <img src="" alt="" id="image-2">
+                </div>
+            </div>
+        </div>
+
+    
+        <div id="game-over">
+            <h3 id="game-over-message"></h3>
+            <button id="play-again-button">Play Again</button>
+            <button id="reset-button">Back to Home</button>
+        </div>
+    </div>
+    
+    <script src="./game.js"></script>
+
+</body>
+</html>
